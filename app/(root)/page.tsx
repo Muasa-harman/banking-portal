@@ -1,9 +1,24 @@
+import HomeCard from '@/components/HomeCard'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <section className='home'>
+      <div className="flex-wrap">
+        <HomeCard title=""/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        <HomeCard/>
+        
+      </div>
+    </section>
   )
 }
 
-export default page
+export default Home
